@@ -5,6 +5,9 @@
     showFooter: ->
       FooterApp.Show.Controller.showFooter()
 
+  FooterApp.on "start", ->
+    API.showFooter()
+
   # App.addInitializer ->
   #   API.showFooter()
 

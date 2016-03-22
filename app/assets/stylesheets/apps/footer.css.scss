@@ -1,0 +1,15 @@
+#push, #footer {
+  height: 60px;
+}
+
+#footer {
+  background-color: #F5F5F5;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+
+  p {
+    margin: 20px 0;
+    text-align: center;
+  }
+}

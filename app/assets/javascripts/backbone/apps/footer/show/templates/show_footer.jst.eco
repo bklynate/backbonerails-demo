@@ -1,0 +1,5 @@
+<div id="footer">
+  <div class="container">
+    <p class="muted"> Written in Backbone - Backend by Rails &copy; 2016</p>
+  </div>
+</div>
