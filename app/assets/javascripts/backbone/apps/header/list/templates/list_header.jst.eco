@@ -1,11 +1,9 @@
-<div id="header" class="navbar">
-  <div class="navbar-inner">
+<div id="header" class="nav navbar navbar-default">
+  <div class="navbar-header">
     <div class="container">
       <div class="row">
-        <div class="pull-left">
-          <span class="brand">Backbone+Rails</span>
-        </div>
-        <ul class="nav pull-right">
+        <a href="#" class="navbar-brand">Backbone+Rails</a>
+        <ul class="nav navbar-nav navbar-right">
           <li class="active">
             <a href="#">Home</a>
           </li>
