@@ -3,8 +3,11 @@
   List.Controller =
 
     listHeader: ->
-      headerView = @getHeaderView()
+      links = App.request "header:entities"
+
+      headerView = @getHeaderView links
       App.headerRegion.show headerView
 
-    getHeaderView: ->
-      new List.Header
+    getHeaderView: (links) ->
+      new List.Headers
+        collection: links
